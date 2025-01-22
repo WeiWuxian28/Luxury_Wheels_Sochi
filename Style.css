@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap');
+
+body {
+    background-color: #181818;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.Name_website {
+	color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(135deg, #E9B481, #9B573D);
+    font-size: 36px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+ul.icons {
+    margin: 0;
+    list-style-type: none;
+    padding: 4px;
+    display: flex;
+    
+}
+
+ul.icons li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;  
+}
+
+.icons_menu {
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end
+}
+
+.Schedule {
+    color: #FFFFFF;
+    font-family: "Ibarra Real Nova", serif;
+    justify-content:flex-end;
+}
+
+
+
+hr {
+    border-color: #373737;
+}
+
+.categories {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 40px;
+    justify-content:flex-start;
+    margin: 19px;
+}
+
+.up_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.d-flex {
+    display: flex;
+    justify-content: flex-end;
+    margin: 19px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #181818;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    width: 236px;
+    height: 34px;
+}
+
+.icon-search {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.search_button {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    outline: none; 
+    font-size: 18px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-close img {
+    width: 24px;
+    height: 24px;
+}
+
+.catalog-button {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -5%);
+    justify-content: center;
+    background-color: rgba(201, 191, 191, 0.148); 
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 243px;
+    height: 62.61px;
+    font-size: 36px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.catalog-button:hover, 
+.catalog-button:active {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.name_LWS {
+    font-size: 64px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-70%, -220%);
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.icon_1 {
+    display: flex;
+    justify-content: space-around
+}
+
+.icon_2 {
+    display: flex;
+    justify-content: space-around
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.car {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.time_icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.price_icon {
+    width: 94px;
+    height: 94px;
+    display: flex;
+}
+
+.car_icon {
+    width: 90px;
+    height: 90px;
+}
+
+.work_icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h4 {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1px;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-image: linear-gradient(135deg, #9B573D, #E9B481);
+    font-size: 48px;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.name_car {
+    font-size: 48px;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.All_SUV {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 196px;
+    height: 48px;
+    background: #181818;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.car_img {
+    display: flex;
+    margin: 0 5px;
+
+}
+
+.img {
+    margin: 17px 16px;
+    width: 454px;
+    height: 322px; 
+}
+
+.button_arrow {
+    padding: 5px;
+    width: 43px;
+    height: 43px;
+    background: #181818;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.arrow_button {
+    display: flex;
+}
+
+.Show_all_cars {
+    display: flex;
+    justify-content: center;
+}
+
+.Show_all_cars-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(201, 191, 191, 0.148); 
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 466px;
+    height: 120px;
+    font-size: 48px;
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h5 {
+    display: flex;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-image: linear-gradient(110deg, #9B573D, #E9B481);
+    font-size: 48px;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.number_icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.points {
+    font-size: 48px;
+}
+
+.subparagraphs {
+    display: flex;
+    font-size: 24px;
+    
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
